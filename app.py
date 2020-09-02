@@ -6,7 +6,7 @@ import pandas as pd
 from sklearn.externals import joblib
 from sklearn.preprocessing import StandardScaler
 
-app = Flask(_name_)
+app = Flask(__name__)
 LOG = create_logger(app)
 LOG.setLevel(logging.INFO)
 
