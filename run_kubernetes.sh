@@ -5,8 +5,8 @@
 # Step 1:
 # This is your Docker ID/path
 # dockerpath=<>
-dockerpath=catherine247/devtest:latest
-dockerimage=building_prediction
+dockerpath=catherine247/building-prediction:latest
+dockerimage=building-prediction
 
 # Step 2
 # Run the Docker Hub container with kubernetes

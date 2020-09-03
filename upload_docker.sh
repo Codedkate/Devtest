@@ -6,8 +6,8 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=catherine247/devtest:latest
-local_tag=building_prediction:latest
+dockerpath=catherine247/building-prediction:latest
+local_tag=building-prediction:latest
 docker tag $local_tag $dockerpath
 
 
